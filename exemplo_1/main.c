@@ -1,3 +1,5 @@
+// primeiro programa
+
 #include <stdio.h>
 #include <locale.h>
 
@@ -6,12 +8,13 @@ int main() {
 
     char nome[30];
 
-    scant("%s", nome);
-    // qets();
+    // scanf("%s", nome);
 
-    int n = 0, x = 1;
+    gets(nome);
+
+    // int n = 0, x = 1;
     
-    printf("Olá mundo!\n");
+    printf("Nome digitado: %s", nome);
 
     return 0;
 }
